@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Drivers_license_tickets" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.Drivers_license_tickets" parent="Base.Theme.Drivers_license_tickets" >
+        <item name="colorPrimary">@color/light_background</item>
+        <item name="android:textColorPrimary">@color/dark_grey</item>
+        <item name="android:navigationBarColor">@color/light_background</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/light_background</item>
+    </style>
+</resources>
